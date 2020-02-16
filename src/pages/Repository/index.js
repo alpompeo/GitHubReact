@@ -130,7 +130,6 @@ export default class Repository extends Component {
           ))}
         </IssueList>
         <Pagination
-          loading={this.state.loading}
           totalRecords={totalIssues}
           pageLimit={8}
           currentPage={this.state.currentPage}
